@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Global Landslide Catalog Map</title>
+    <script src="//code.jquery.com/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAr5yP_E5OdZMujl8oF2FMhxTVxwIQkR5M&libraries=visualization"></script>
+    <style>
+      body {
+        background: black;
+        color: white;
+      }
+      #map {
+        width: 800px;
+        height: 380px;
+        background-color: #CCC;
+      }
+      .popup-content {
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Landslides</h1>
+      <h2>Number of Landslides: <span id="landslideNumber"></span></h2>
+
+      <div id="map"></div>
+    </div>
+
+    <script src="./main.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
